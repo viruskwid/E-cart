@@ -5,14 +5,13 @@ import Home from './pages/Home'
 import Wishlist from './pages/Wishlist'
 import Cart from './pages/Cart'
 import View from './pages/View'
-import Header from './Components/Header'
 import Footer from './Components/Footer'
 function App() {
   
 
   return (
     <>
-      <Header/>
+      
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/wishlist' element={<Wishlist/>}/>
